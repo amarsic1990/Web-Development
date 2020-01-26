@@ -14,3 +14,13 @@ js --> ponašanje/napraviti stvari...
 
 <br> --> self closing tag novi redak
 <hr size="3"> --> self closing tag horizontalna linija, size="3" je html atribut
+
+HTML + ENTER --> da inserta sve doctype, head, body...
+
+https://docs.emmet.io/cheat-sheet/
+
+https://unicode-table.com/en/
+
+description od stranice se pojavljuje u tražilicama
+
+umisto bolda koristiti strong umisto italic koristit emphasis <em>
