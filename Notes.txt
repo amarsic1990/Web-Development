@@ -1,0 +1,16 @@
+*** Front end web development***
+ne pisati kod s tutorijalom već razumijeti što se događa
+raditi zabilješke
+server racunalo koje pruza informacije na netu
+klijent racunalo koje korisnik koristi za pristup stranicama
+
+klijent --> INTERNET SERVICE PROVIDER --> DNS SERVER
+
+html --> struktura web stranice
+css --> stiliziranje web stranice
+js --> ponašanje/napraviti stvari...
+
+"mdn, w3 schools, devdocs.io" dodat na kraju kako googleamo nesta za HTML
+
+<br> --> self closing tag novi redak
+<hr size="3"> --> self closing tag horizontalna linija, size="3" je html atribut
