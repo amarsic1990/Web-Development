@@ -28,3 +28,6 @@ umisto bolda koristiti strong umisto italic koristit emphasis <em>
 ul --> unordered list
 ol --> ordered list ("a,b,c", "1,2,3")
 li --> list item
+
+thead --> table head --> tu dodajemo imena stupaca... "th" umisto "td" ide u headeru za table data
+tbody --> table body
