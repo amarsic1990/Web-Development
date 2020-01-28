@@ -68,4 +68,9 @@ u form-i je najvazniji input.... on je self closing tag!!!!!!!!!
 		
 		
 		
-podaci u formi su enkodirani u PLAIN TEKSTU pa 
+podaci u formi su enkodirani u PLAIN TEKSTU pa je enctype="text/plain"
+
+
+
+CSS
+background-color: --> pozadinska boja
