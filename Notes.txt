@@ -74,3 +74,8 @@ podaci u formi su enkodirani u PLAIN TEKSTU pa je enctype="text/plain"
 
 CSS
 background-color: --> pozadinska boja
+
+SVE NA STRANICI SU KUTIJE (BOXES)!!!
+u "body"u ne mozemo minjati "height"
+width --> širina
+bolje je da specificiramo postotke nego hardkodirane vrijednosti
