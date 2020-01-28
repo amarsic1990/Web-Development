@@ -31,3 +31,41 @@ li --> list item
 
 thead --> table head --> tu dodajemo imena stupaca... "th" umisto "td" ide u headeru za table data
 tbody --> table body
+
+HTML form  --> sekcija dokumenta  koja sadrzi interaktivne kontrole za submitanje informacija
+u form-i je najvazniji input.... on je self closing tag!!!!!!!!!
+
+
+<!--da bi pohranili informaciju moramo imati neki input....  type inputa je text-->
+        <input type="text" name ="" value="">
+        <input type="color" name ="" value="">
+        <br>
+        <label>Do you want to sign up to the email list?</label>
+        <input type="checkbox" name="" id="">
+        <br>
+        <label>Password:</label>
+        <input type="password" name="" id="">
+        <br>
+        <input type="date" name="" id=""> <!--za odabrati datum-->
+        <br>
+        <input type="datetime-local" name="" id="">
+        <br>
+        <input type="email" name="" id=""> <!--text box za email-->
+        <br>
+        <input type="file" name="" id=""> <!--za uploadati file-->
+
+        <input type="image" src="" alt="">
+        <br>
+        <label>radio</label>
+        <input type="radio" name="" id="">
+        <br>
+        <label for="">range</label>
+        <input type="range" name="" id="">
+        <br>
+        <label for="">search</label>
+        <input type="search" name="" id="">
+        <input type="submit">
+		
+		
+		
+podaci u formi su enkodirani u PLAIN TEKSTU pa 
