@@ -79,3 +79,12 @@ SVE NA STRANICI SU KUTIJE (BOXES)!!!
 u "body"u ne mozemo minjati "height"
 width --> širina
 bolje je da specificiramo postotke nego hardkodirane vrijednosti
+
+
+anatomija CSSa:
+
+selector {svojstvo: vrijednost}
+
+selektor je "TKO" --> ciji stil zelimo prominiti
+svojstvo je "ŠTO" --> što želimo minjati boju linije itd.......
+vrijednost "KAKO" --> kako želimo nešto prominiti
