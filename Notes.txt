@@ -103,3 +103,5 @@ FAVICON --> ikona u tab-u https://www.favicon.cc/
 
 
 DIV --> u divove dijelimo sadržaj... div je za  strukturu i dijeljenje sadržaja
+
+css svaki HTML element tretira kao BOX 
