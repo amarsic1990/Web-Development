@@ -16,6 +16,11 @@ body {
   }
   img {
     height: 60%;
+    border-radius: 100%;
+  }
+
+  h1:hover {
+      background-color: gold;
   }
 
   h1, h3 {

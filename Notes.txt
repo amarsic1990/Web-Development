@@ -74,6 +74,7 @@ podaci u formi su enkodirani u PLAIN TEKSTU pa je enctype="text/plain"
 
 CSS
 background-color: --> pozadinska boja
+radius --> 100% da bude okruglo
 
 SVE NA STRANICI SU KUTIJE (BOXES)!!!
 u "body"u ne mozemo minjati "height"
@@ -88,3 +89,12 @@ selector {svojstvo: vrijednost}
 selektor je "TKO" --> ciji stil zelimo prominiti
 svojstvo je "ŠTO" --> što želimo minjati boju linije itd.......
 vrijednost "KAKO" --> kako želimo nešto prominiti
+
+CLASS --> s njim mozemo razlikovati razlicite HTML elemente 
+class odabiremo s "TOČKApaImeKlase"
+ID --> da bi targetali ID u css moramo koristiti "#" pa ime ID-a... po stranici mozemo imati SAMO JEDAN ID..
+class koristimo kada želimo primjeniti nek istil na grupu povezanih elemenata,
+a ID koristimo kada za specifičan stil 
+
+
+PSEUDO CLASS --> kada se css minja ovisno da li smo pokrili element ili ne... ":hover" je takav element da se nesta desi kada pokrijemo taj tag...
