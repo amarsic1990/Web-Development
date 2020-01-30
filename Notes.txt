@@ -98,3 +98,8 @@ a ID koristimo kada za specifičan stil
 
 
 PSEUDO CLASS --> kada se css minja ovisno da li smo pokrili element ili ne... ":hover" je takav element da se nesta desi kada pokrijemo taj tag...
+
+FAVICON --> ikona u tab-u https://www.favicon.cc/
+
+
+DIV --> u divove dijelimo sadržaj... div je za  strukturu i dijeljenje sadržaja
