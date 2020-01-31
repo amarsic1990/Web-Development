@@ -105,3 +105,26 @@ FAVICON --> ikona u tab-u https://www.favicon.cc/
 DIV --> u divove dijelimo sadržaj... div je za  strukturu i dijeljenje sadržaja
 
 css svaki HTML element tretira kao BOX 
+
+CSS DISPLAY SVOJSTVO ima 4 vrijednosti : BLOCK, INLINE, INLINE-BLOCK i NONE
+
+SPAN --> je inline display element... span se koristi samo u kombinaciji s css... inline element uzima samo onoliko mista koliko mu triba u (heightu i widthu)
+s INLINE ELEMENTIMA ne možemo prominiti WIDTH
+
+paragraf je po difoltu block element... možemo mu prominiti "display:inline"
+
+INLINE-BLOCK mozemo prominiti width i da elementi budu u istoj liniji
+image tretirati kao inline block elemente 
+
+NONE --> u displayu mice element kao da nije ni postoja
+"visibility: hidden" --> element se samo sakrije ali ne moze nista doci na njegovu poziciju
+
+POSITIONING
+1. content je sve --> height je odreden contentom bez obzira na width;
+2. Order dolazi iz coda --> redosljed kako ide u kodu...
+3. "djeca" sjede na roditeljima
+
+imamo: static, relative, absolute i fixed positioning
+
+svi HTML elementi po difoltu imaju static positioning
+RELATIVE --> relativno u odnosu na početni položaj možemo ga maknuti (top, bottom, left, right)

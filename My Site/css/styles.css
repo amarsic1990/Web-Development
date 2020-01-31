@@ -13,24 +13,21 @@ h1 {
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
-    height: 200px;
-    width: 200px;
-    border: solid 10px;
-    padding: 20px;
+
 }
 
 .middle-container {
     height: 200px;
     width: 200px;
     background-color: chocolate;
-    margin-left: 260px;
-    border: solid 20px;
 }
 
 .bottom-container {
     height: 200px;
     width: 200px;
     background-color: darkgreen;
-    margin-left: 500px;
-    border: solid 10px;
+}
+
+.pro {
+    text-decoration: underline;
 }
