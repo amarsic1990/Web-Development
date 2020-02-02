@@ -128,3 +128,9 @@ imamo: static, relative, absolute i fixed positioning
 
 svi HTML elementi po difoltu imaju static positioning
 RELATIVE --> relativno u odnosu na početni položaj možemo ga maknuti (top, bottom, left, right)
+
+ABSOLUTE POSITIONING --> ovde pozicioniramo element relativno u odnosu na PARENT ELEMENTIMA
+ne mice se livo kada stavimo "right" već ide desno.
+utječe na flow HTML dokumenta 
+
+FIXED POSITIONING --> element ostaje na mistu di smo ga stavili
