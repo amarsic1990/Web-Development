@@ -9,30 +9,28 @@ h1 {
     margin: 0 auto 0 auto; */
     /* margin-top: 100px; */
     /* margin: 0; */
-    margin-top: 0px;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
+    font-family: 'Sacramento' cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    
 }
 
 
 .top-container {
     background-color: #e4f9f5;
-    /* margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px; */
     position: relative;
     padding-top: 100px;
 }
 
-.middle-container {
-    height: 200px;
-    width: 200px;
-    background-color: chocolate;
-}
-
-.bottom-container {
-    height: 200px;
-    width: 200px;
-    background-color: darkgreen;
-}
 
 .pro {
     text-decoration: underline;
@@ -40,12 +38,24 @@ h1 {
 
 .top-cloud {
     position: absolute;
-    right: 650px;
-    top: 50px;
+    top: 100px;
+    right: 600px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left:300;
     bottom: 300px;
+    left: 600px;
 }
+
+.profile-pic {
+    border-radius: 100%;
+    width: 20%;
+}
+
+
+h3, a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
