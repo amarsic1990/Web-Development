@@ -118,6 +118,8 @@ paragraf je po difoltu block element... možemo mu prominiti "display:inline"
 
 BLOCK ELEMENTI: p, h1-h6, div, ol ul li, form
 
+"text-decoration:underline"
+
 INLINE-BLOCK mozemo prominiti width i da elementi budu u istoj liniji
 image tretirati kao inline block elemente 
 
@@ -131,11 +133,32 @@ POSITIONING
 
 imamo: static, relative, absolute i fixed positioning
 
-svi HTML elementi po difoltu imaju static positioning
+svi HTML elementi po difoltu imaju STATIC positioning
 RELATIVE --> relativno u odnosu na početni položaj možemo ga maknuti (top, bottom, left, right)
+kada stavimo lef miće element udesno..
+kada micemo element koji je relativno pozicioniran ne mice se nista ostalo pa ih mozemo pregaziti
 
 ABSOLUTE POSITIONING --> ovde pozicioniramo element relativno u odnosu na PARENT ELEMENTIMA
 ne mice se livo kada stavimo "right" već ide desno.
 utječe na flow HTML dokumenta 
+roditelj ne mora uvik biti boddy
+
 
 FIXED POSITIONING --> element ostaje na mistu di smo ga stavili
+fixed koristimo za SIDEBARove
+
+
+text-align: center --> za centriranje
+ovo svojstvo postaviti u parent kontenjer
+
+margnin:auto isto cestrira element horizontalno ili vertikalno
+
+ako nam je element ABSOLUTE za pozicionirati ga relativno u odnosu na nešto njegov RODITELJ mora biti RELATIVE
+
+PADDING DODAJEMO ZAA MAKNUTI ELEMENT U BLOKU OD VRHA ILI LIVO DESNO DOLJE.... (ime na my site)
+
+
+S MARGINAMA CENTRIRAMO ELEMENTEE!!!!!!!!!!!
+
+
+FLOAT --> koristiti ga samo kada je potrebno... samo kada stavljamo tekst oko nekog elementa
