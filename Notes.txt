@@ -83,6 +83,8 @@ bolje je da specificiramo postotke nego hardkodirane vrijednosti
 
 
 anatomija CSSa:
+http://www.webtech.com.hr/css.php
+
 
 selector {svojstvo: vrijednost}
 
@@ -102,7 +104,8 @@ PSEUDO CLASS --> kada se css minja ovisno da li smo pokrili element ili ne... ":
 FAVICON --> ikona u tab-u https://www.favicon.cc/
 
 
-DIV --> u divove dijelimo sadržaj... div je za  strukturu i dijeljenje sadržaja
+DIV --> u divove dijelimo sadržaj... div je za  strukturu i dijeljenje sadržaja.
+div bez heighta i widtha ce imati oboje ako stavimo neki sadržaj u njega...
 
 css svaki HTML element tretira kao BOX 
 
@@ -112,6 +115,8 @@ SPAN --> je inline display element... span se koristi samo u kombinaciji s css..
 s INLINE ELEMENTIMA ne možemo prominiti WIDTH
 
 paragraf je po difoltu block element... možemo mu prominiti "display:inline"
+
+BLOCK ELEMENTI: p, h1-h6, div, ol ul li, form
 
 INLINE-BLOCK mozemo prominiti width i da elementi budu u istoj liniji
 image tretirati kao inline block elemente 
