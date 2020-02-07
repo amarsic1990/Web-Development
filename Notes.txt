@@ -151,7 +151,7 @@ fixed koristimo za SIDEBARove
 text-align: center --> za centriranje
 ovo svojstvo postaviti u parent kontenjer
 
-margnin:auto isto cestrira element horizontalno ili vertikalno
+margin : auto isto cestrira element horizontalno ili vertikalno
 
 ako nam je element ABSOLUTE za pozicionirati ga relativno u odnosu na nešto njegov RODITELJ mora biti RELATIVE
 

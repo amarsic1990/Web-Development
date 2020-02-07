@@ -1,15 +1,11 @@
 body {
-    /* sve 4 strane margina su NULA */
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #40514E;
 }
 
 h1 {
-    /* width: 10%;
-    margin: 0 auto 0 auto; */
-    /* margin-top: 100px; */
-    /* margin: 0; */
     margin: 50px auto 0 auto;
     color: #66BFBF;
     font-family: 'Sacramento' cursive;
@@ -22,14 +18,19 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
+    padding-bottom: 10px;
     
 }
 
 
 .top-container {
-    background-color: #e4f9f5;
+    background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px 0;
 }
 
 
@@ -37,16 +38,21 @@ h2 {
     text-decoration: underline;
 }
 
+.me-description {
+    width: 40%;
+    margin: auto;
+}
+
 .top-cloud {
     position: absolute;
     top: 100px;
-    right: 600px;
+    right: 500px;
 }
 
 .bottom-cloud {
     position: absolute;
     bottom: 300px;
-    left: 600px;
+    left: 500px;
 }
 
 .profile-pic {
@@ -77,21 +83,128 @@ h3, a {
     margin-right: 30px;
 }
 
-.chill-pic {
-    width: 25%;
+.gym-pic {
+    width: 200.25px;
+    height: 200.25px;
     float: right;
     margin-left: 30px;
+    border-radius: 100%;
+    margin-top: 80px;
 }
 
 .h3-skill {
     padding-top: 70px;
 }
 
-/* .code-skill-description {
-    clear: left;
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    color: #EAF6F6;
+    width: 5%;
+    margin: 100px auto 100px auto;
 }
 
-.chill-description 
-{
-    clear: right;
-} */
+.btn {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: linear-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 40px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    -webkit-box-shadow: 1px 1px 20px 0px #000000;
+    -moz-box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    }
+    
+    .btn:hover {
+    border: solid #337FED 1px;
+    background: #4980D9;
+    background-image: -webkit-linear-gradient(top, #4980D9, #71B1F9);
+    background-image: -moz-linear-gradient(top, #4980D9, #71B1F9);
+    background-image: -ms-linear-gradient(top, #4980D9, #71B1F9);
+    background-image: -o-linear-gradient(top, #4980D9, #71B1F9);
+    background-image: linear-gradient(to bottom, #4980D9, #71B1F9);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    }
+
+.contact-me {
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+
+.bottom-container {
+    height: 200px;
+    background-color: #66BFBF;
+    position: relative;
+
+}
+
+
+
+.linkedin-link {
+    position: absolute;
+    color:#11999E;
+    left: 40%;
+    top: 20%;
+    text-decoration: none;
+}
+
+.instagram-link {
+    position: absolute;
+    color:#11999E;
+    left: 45%;
+    top: 20%;
+    text-decoration: none;
+}
+
+.juradin-link {
+    position: absolute;
+    color:#11999E;
+    left: 50%;
+    top: 20%;
+    text-decoration: none;
+}
+
+.copyrights {
+    position: absolute;
+    color:#EAF6F6;
+    margin-top: 160px;
+    margin-left: 46%;
+    font-size: 0.75rem;
+}
+
+
+.hr-contact-me {
+    margin-top: 170px;
+    margin-bottom: 0;
+}
+
+.contact-description {
+    width: 30%;
+
+    /* 3 margine: gori, livo-desno i doli */
+    margin: 40px auto 60px;
+}
+
+a:hover {
+    color: #EAF6F6;;
+}
